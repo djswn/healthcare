@@ -1,0 +1,53 @@
+.menu-container {
+    text-align: center;
+    position: relative;
+    background-color: pink;
+}
+
+.menu {
+    position: relative;
+    background: none;    
+    border: none;          
+    padding: 10px;            
+    margin: 0 100px 0px 100px;           
+    font: inherit;         
+    color: inherit;     
+    cursor: pointer;      
+    font-size: 20px;
+}
+
+.menu:hover {
+    background-color: rgb(255, 225, 230);
+}
+
+.main {
+    border:1px solid #222;
+    border-radius: 8px;
+    margin: 30px 0 0 0;
+}
+
+h1 {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    font-size: 50px;
+}
+
+p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: 0 50px 0 0;
+    padding: 30px 30px 30px 30px;
+    background-color:  rgb(227, 228, 224);
+    border-radius: 8px;
+}
+
+img {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+}
+
+body {
+    background-color: rgb(238,239,234);
+}
